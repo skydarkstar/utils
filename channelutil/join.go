@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
+	errorutil "github.com/skydarkstar/utils/errors"
 )
 
 // JoinChannels provides method to Join channels

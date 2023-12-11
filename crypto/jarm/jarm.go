@@ -8,7 +8,7 @@ import (
 	"time"
 
 	gojarm "github.com/hdm/jarm-go"
-	connpool "github.com/projectdiscovery/utils/conn/connpool"
+	connpool "github.com/skydarkstar/utils/conn/connpool"
 )
 
 // PoolCount defines how many connection are kept in the pool

@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
-	fileutil "github.com/projectdiscovery/utils/file"
-	mapsutil "github.com/projectdiscovery/utils/maps"
+	fileutil "github.com/skydarkstar/utils/file"
+	mapsutil "github.com/skydarkstar/utils/maps"
 )
 
 var (

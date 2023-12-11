@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
-	osutils "github.com/projectdiscovery/utils/os"
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	errorutil "github.com/skydarkstar/utils/errors"
+	osutils "github.com/skydarkstar/utils/os"
+	stringsutil "github.com/skydarkstar/utils/strings"
 )
 
 // disables autocorrect related to parsing

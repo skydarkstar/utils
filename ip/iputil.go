@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectdiscovery/utils/consts"
-	osutil "github.com/projectdiscovery/utils/os"
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	"github.com/skydarkstar/utils/consts"
+	osutil "github.com/skydarkstar/utils/os"
+	stringsutil "github.com/skydarkstar/utils/strings"
 	"go.uber.org/multierr"
 )
 

@@ -1,8 +1,8 @@
 package process
 
 import (
-	stringsutil "github.com/projectdiscovery/utils/strings"
 	ps "github.com/shirou/gopsutil/v3/process"
+	stringsutil "github.com/skydarkstar/utils/strings"
 )
 
 // CloseProcesses part

@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
+	errorutil "github.com/skydarkstar/utils/errors"
 )
 
 var (

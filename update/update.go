@@ -17,7 +17,7 @@ import (
 	"github.com/denisbrodbeck/machineid"
 	"github.com/minio/selfupdate"
 	"github.com/projectdiscovery/gologger"
-	errorutil "github.com/projectdiscovery/utils/errors"
+	errorutil "github.com/skydarkstar/utils/errors"
 )
 
 const (

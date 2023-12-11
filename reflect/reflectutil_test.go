@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/projectdiscovery/utils/reflect/tests"
+	"github.com/skydarkstar/utils/reflect/tests"
 	"github.com/stretchr/testify/require"
 )
 

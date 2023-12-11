@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	contextutil "github.com/projectdiscovery/utils/context"
-	errorutil "github.com/projectdiscovery/utils/errors"
+	contextutil "github.com/skydarkstar/utils/context"
+	errorutil "github.com/skydarkstar/utils/errors"
 )
 
 const (

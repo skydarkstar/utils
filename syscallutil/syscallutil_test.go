@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	osutils "github.com/projectdiscovery/utils/os"
+	osutils "github.com/skydarkstar/utils/os"
 	"github.com/stretchr/testify/require"
 )
 

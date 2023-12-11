@@ -18,8 +18,8 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/pkg/errors"
-	sliceutil "github.com/projectdiscovery/utils/slice"
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	sliceutil "github.com/skydarkstar/utils/slice"
+	stringsutil "github.com/skydarkstar/utils/strings"
 	"gopkg.in/yaml.v3"
 )
 

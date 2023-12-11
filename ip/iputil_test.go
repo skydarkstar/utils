@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/projectdiscovery/utils/consts"
-	osutils "github.com/projectdiscovery/utils/os"
+	"github.com/skydarkstar/utils/consts"
+	osutils "github.com/skydarkstar/utils/os"
 	"github.com/stretchr/testify/require"
 )
 

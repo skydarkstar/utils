@@ -3,7 +3,7 @@ package healthcheck
 import (
 	"errors"
 
-	fileutil "github.com/projectdiscovery/utils/file"
+	fileutil "github.com/skydarkstar/utils/file"
 )
 
 type PathPermission struct {

@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/kljensen/snowball"
-	mlutils "github.com/projectdiscovery/utils/ml"
-	"github.com/projectdiscovery/utils/ml/metrics"
+	mlutils "github.com/skydarkstar/utils/ml"
+	"github.com/skydarkstar/utils/ml/metrics"
 )
 
 var (

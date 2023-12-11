@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/projectdiscovery/utils/env"
+	"github.com/skydarkstar/utils/env"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/pkg/errors"
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	stringsutil "github.com/skydarkstar/utils/strings"
 )
 
 // New creates a routing engine for windows

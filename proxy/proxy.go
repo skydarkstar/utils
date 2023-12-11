@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
 	"github.com/remeh/sizedwaitgroup"
+	errorutil "github.com/skydarkstar/utils/errors"
 )
 
 type proxyResult struct {
