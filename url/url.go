@@ -3,6 +3,7 @@ package urlutil
 import (
 	"bytes"
 	"net/url"
+	"path"
 	"strings"
 
 	errorutil "github.com/skydarkstar/utils/errors"
@@ -376,4 +377,30 @@ func copy(dst *url.URL, src *url.URL) {
 	dst.RawPath = src.RawPath
 	dst.Scheme = src.Scheme
 	dst.User = src.User
+}
+
+func NormalizeUrlString(originalUrl string) (string, error) {
+	u, err := url.Parse(originalUrl)
+	if err != nil {
+		return "", err
+	}
+
+	return NormalizeUrl(u)
+}
+
+func NormalizeUrl(u *url.URL) (string, error) {
+
+	hasSlash := strings.HasSuffix(u.Path, "/")
+
+	// clean up path by removing duplicated /
+	u.Path = path.Clean(u.Path)
+	u.RawPath = path.Clean(u.RawPath)
+
+	// restore original trailing slash
+	if hasSlash && !strings.HasSuffix(u.Path, "/") {
+		u.Path += "/"
+		u.RawPath += "/"
+	}
+
+	return u.String(), nil
 }
