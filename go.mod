@@ -12,6 +12,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/kljensen/snowball v0.8.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
+	github.com/matryer/is v1.4.1
 	github.com/microcosm-cc/bluemonday v1.0.25
 	github.com/miekg/dns v1.1.55
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7
